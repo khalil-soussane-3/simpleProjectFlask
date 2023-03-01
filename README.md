@@ -1,6 +1,9 @@
 # simpleProjectFlask
+
 gestion des reseaux neurounes avec flask
+
 Presentation de projet :
+
   On cherche à concevoir et développer une application pour pouvoir classifier des données en
 utilisant un algorithme d’apprentissage. Pour ce, on va créer des réseaux de neurones
 artificiels pour simuler le fonctionnement du cerveau humain. Il s'agit d'outils permettant de
