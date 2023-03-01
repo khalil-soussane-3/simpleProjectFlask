@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<centre>    
+ <form method="POST" action = "">
+    {{  form.hidden_tag()  }}
+    <fieldset class = 'form-group'>
+        {{form.input1.label}}
+        {{form.input1}}
+    </fieldset>
+    <fieldset class = 'form-group'>
+        {{form.input2.label}}
+        {{form.input2}}
+    </fieldset>
+    <fieldset class = 'form-group'>
+        {{form.input3.label}}
+        {{form.input3}}
+    </fieldset>
+    {{form.submit1}}
+
+ </form>
+</centre>
+</body>
+</html>
